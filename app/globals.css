@@ -13,3 +13,16 @@
 footer{background:#062a30;color:#d8e7e4;padding:60px 5vw;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px;align-items:center;font-size:10px;letter-spacing:.08em}.footerBrand .brandMark{background:var(--coral)}.footerRight{text-align:right}.footerRight a{text-decoration:underline}footer>small{grid-column:1/-1;color:#739a96;border-top:1px solid #ffffff21;padding-top:25px}
 @media(max-width:850px){.nav{height:70px;padding:0 20px}.nav nav{display:none;position:absolute;top:70px;left:0;right:0;background:var(--foam);padding:25px;flex-direction:column;align-items:flex-start}.menuToggle:checked~nav{display:flex}.menu{display:block;width:40px;height:40px;padding-top:9px}.menu span{display:block;width:24px;height:1px;background:var(--ink);margin:7px}.brandMark{width:36px;height:36px}.hero{height:82vh;min-height:620px}.heroCopy{left:25px;right:25px;top:25%}.heroEyebrow{left:25px}.hero h1{font-size:60px}.heroCopy p{font-size:15px}.heroAddress{right:22px}.scroll{left:25px}.section{padding:82px 25px}.intro,.planHead,.location,.retailGrid,.contact{grid-template-columns:1fr}.intro{gap:45px}.statsWrap{padding:0 25px 70px}.stats{grid-template-columns:1fr 1fr}.stats article{border-bottom:1px solid var(--line)}.stats article:nth-child(2){border-right:0}.stats article:nth-child(3){padding-left:0}.plan:before{display:none}.planHead{gap:35px}.planFrame{padding:10px}.planKey{gap:15px;flex-direction:column}.locationImage{height:460px}.locationCopy{padding:75px 25px}.retailGrid{gap:35px}.contact{gap:55px;padding:82px 25px}footer{grid-template-columns:1fr}.footerRight{text-align:left}footer>small{grid-column:1}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* St. Cloud refinement pass */
+.locationCopy h2{margin-bottom:40px}
+.locationCopy p{margin-top:0}
+.strategy{background:#e9dfcc}
+.strategyHead{display:grid;grid-template-columns:1.35fr .55fr;gap:9vw;align-items:end;margin-bottom:65px}
+.strategyHead p{font-size:17px;line-height:1.75}
+.strategyMap{overflow:hidden;box-shadow:0 28px 90px #0d41451f;background:var(--deep)}
+.strategyMap img{width:100%;height:auto}
+.strategy h2 em{color:var(--coral)}
+.brochureButton{display:inline-flex;align-items:center;gap:28px;margin-top:42px;padding:15px 22px;border:1px solid #ffffffa8;border-radius:30px;font:700 9px var(--font-sans);letter-spacing:.15em;text-transform:uppercase}
+.brochureButton:hover{background:white;color:var(--coral)}
+@media(max-width:850px){.strategyHead{grid-template-columns:1fr;gap:35px}.locationCopy h2{margin-bottom:32px}}

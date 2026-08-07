@@ -14,7 +14,7 @@ const sans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "St. Cloud 192 Retail",
+  title: "The Shoppes at St. Cloud",
   description: "High-exposure retail opportunity at 201 E 13th Street in St. Cloud, Florida. For lease or ground lease.",
   other: {
     "codex-preview": "development",
