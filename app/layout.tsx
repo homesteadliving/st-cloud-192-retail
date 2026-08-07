@@ -14,8 +14,18 @@ const sans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.theshoppesstcloud.com"),
   title: "The Shoppes at St. Cloud",
   description: "High-exposure retail opportunity at 201 E 13th Street in St. Cloud, Florida. For lease or ground lease.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: "The Shoppes at St. Cloud",
+    description: "High-exposure retail opportunity at 201 E 13th Street in St. Cloud, Florida.",
+    url: "/",
+    siteName: "The Shoppes at St. Cloud",
+    type: "website",
+    images: [{ url: "/st-cloud-aerial-render-v2.webp", width: 1450, height: 1085 }],
+  },
   other: {
     "codex-preview": "development",
   },
