@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "The Shoppes at St. Cloud",
     type: "website",
-    images: [{ url: "/st-cloud-aerial-render-v3.webp", width: 1450, height: 1085 }],
+    images: [{ url: "/st-cloud-aerial-render-v9.webp", width: 1450, height: 1085 }],
   },
   other: {
     "codex-preview": "development",

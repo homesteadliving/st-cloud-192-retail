@@ -15,7 +15,7 @@ footer{background:#062a30;color:#d8e7e4;padding:60px 5vw;display:grid;grid-templ
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 /* St. Cloud refinement pass */
-.hero{background-image:url('/st-cloud-aerial-render-v3.webp')}
+.hero{background-image:url('/st-cloud-aerial-render-v9.webp')}
 .locationCopy h2{margin-bottom:40px}
 .locationCopy p{margin-top:0}
 .strategy{background:#e9dfcc}
